@@ -1,0 +1,9 @@
+model_dir: run/
+
+data:
+  train_features_file: gulf_train_src.txt
+  train_labels_file: gulf_train_tgt.txt
+  eval_features_file: gulf_val_src.txt
+  eval_labels_file: gulf_val_tgt.txt
+  source_vocabulary: src-vocab.txt
+  target_vocabulary: tgt-vocab.txt
